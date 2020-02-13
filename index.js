@@ -13,7 +13,7 @@ client.on('ready', () => {
           game: {
               name: 'WaRoom Discord',
               type: "Watching",
-              url: "Insert invite link here."
+              url: "https://discord.gg/YMKFsuT"
           }
       });
   });
