@@ -48,76 +48,166 @@ o League Of Legends (LOL) - :crystal_ball:
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":crown:"){ // Crusader Kings 2
           let role = reaction.message.guild.roles.find(r => r.name == "CK2");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":map:"){ //Civ 5
           let role = reaction.message.guild.roles.find(r => r.name == "CIV5");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":tophat:"){ // TF2
           let role = reaction.message.guild.roles.find(r => r.name == "TF2");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":crystal_ball:"){ //LOL
           let role = reaction.message.guild.roles.find(r => r.name == "LOL");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":chestnut:"){ //HOI4
           let role = reaction.message.guild.roles.find(r => r.name == "HOI2");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":crown:"){ // Crusader Kings 2
           let role = reaction.message.guild.roles.find(r => r.name == "CK2");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":map:"){ //Civ 5
           let role = reaction.message.guild.roles.find(r => r.name == "CIV5");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":tophat:"){ // TF2
           let role = reaction.message.guild.roles.find(r => r.name == "TF2");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":crystal_ball:"){ //LOL
           let role = reaction.message.guild.roles.find(r => r.name == "LOL");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":star:"){ // Stellaris
           let role = reaction.message.guild.roles.find(r => r.name == "STL");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":star:"){ // Stellaris
           let role = reaction.message.guild.roles.find(r => r.name == "STL");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":fire:"){ //FFXIV
           let role = reaction.message.guild.roles.find(r => r.name == "FFXIV");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":fire:"){ //FFXIV
           let role = reaction.message.guild.roles.find(r => r.name == "FFXIV");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":airplane:"){ //LOL
           let role = reaction.message.guild.roles.find(r => r.name == "WTD");
           reaction.message.guild.member(user).addRole(role).catch(console.error);
           }
       }
+});
+  client.on("messageReactionAdd",(reaction,user)=>{
+      if(!user) return;
+      if(user.bot)return;
+      if(!reaction.message.channel.guild) return;
+      for(let n in emojiname){
       if(reaction.emoji.name == ":airplane:"){ //HOI4
           let role = reaction.message.guild.roles.find(r => r.name == "WTD");
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
