@@ -213,5 +213,5 @@ o League Of Legends (LOL) - :crystal_ball:
           reaction.message.guild.member(user).removeRole(role).catch(console.error);
           }
       }
-  });
+});
   client.login(process.env.token);
