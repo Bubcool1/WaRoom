@@ -93,7 +93,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -104,7 +104,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -115,7 +115,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -126,7 +126,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -137,7 +137,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -159,7 +159,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -181,7 +181,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
@@ -203,7 +203,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
       }
   }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
   if(!user) return;
   if(user.bot)return;
   if(!reaction.message.channel.guild) return;
