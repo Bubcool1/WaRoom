@@ -30,92 +30,92 @@ var stlemojiName=["star"];
 var ffemojiName=["fire"];
 var wtdemojiName=["airplane"];
 
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in hoiemojiname){
     if(reaction.emoji.name == hoiemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == hoirolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
 
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in ckemojiname){
     if(reaction.emoji.name == ckemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == ckrolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in civemojiname){
     if(reaction.emoji.name == emojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == civrolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in euemojiname){
     if(reaction.emoji.name == euemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == eurolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in tfemojiname){
     if(reaction.emoji.name == tfemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == tfrolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in stlemojiname){
     if(reaction.emoji.name == stlemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == stlrolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in ffemojiname){
     if(reaction.emoji.name == ffemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == ffrolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
-client.on("messageReactionAdd",(reaction,user)=>{
+client.on("messageReactionRemove",(reaction,user)=>{
     if(!user) return;
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in wtdemojiname){
     if(reaction.emoji.name == wtdemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == wtdrolename[n]);
-        reaction.message.guild.member(user).addRole(role).catch(console.error);
+        reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
     }
 });
