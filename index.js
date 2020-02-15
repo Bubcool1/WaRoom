@@ -33,7 +33,7 @@ o Team Fortress 2 (TF2) - :tophat:
 - War Thunder (WTD) - :airplane:
 o League Of Legends (LOL) - :crystal_ball:
 
-(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)`).then(msg => msg.react(':chestnut:')).then(msg => msg.react(':crown:')).then(msg => msg.react(':map:')).then(msg => msg.react(':euro:')).then(msg => msg.react(':tophat:')).then(msg => msg.react(':star:')).then(msg => msg.react(':fire:')).then(msg => msg.react(':airplane:')).then(msg => msg.react(':crystal_ball:'))
+(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)`)
 
   }
 });
