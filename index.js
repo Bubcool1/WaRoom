@@ -37,6 +37,36 @@ o League Of Legends (LOL) - :crystal_ball:
 
   }
 });
+
+//if this works imma just go die.
+bot.on('message', msg => {
+  if (msg.content === `Welcome to #role-add ! To obtain a role, just react to the reactions displayed down below. A key is supplied below:
+
+o Hearts of Iron 4 (HOI4) - :chestnut:
+o Crusader Kings 2 (CK2) - :crown:
+o Civilisation 5 (CIV5) - :map:
+- Europa 4 (EU4) - :euro:
+o Team Fortress 2 (TF2) - :tophat:
+- Stellaris (STL) - :star:
+- Final Fantasy XIV (FFXIV) - :fire:
+- War Thunder (WTD) - :airplane:
+o League Of Legends (LOL) - :crystal_ball:
+
+(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)`) {
+    msg.react(':chestnut:'))
+    msg.react(':crown:'))
+    msg.react(':map:'))
+    msg.react(':euro:'))
+    msg.react(':tophat:'))
+    msg.react(':star:'))
+    msg.react(':fire:'))
+    msg.react(':airplane:'))
+    msg.react(':crystal_ball:'))
+  }
+
+});
+
+
 // Does role adding if you click a reaction
 client.on("messageReactionAdd",(reaction,user)=>{
   if(!user) return;
