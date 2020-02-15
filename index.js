@@ -34,7 +34,6 @@ o Team Fortress 2 (TF2) - :tophat:
 o League Of Legends (LOL) - :crystal_ball:
 
 (Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)`)
-
   }
 });
 
