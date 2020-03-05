@@ -101,7 +101,7 @@ client.on("messageReactionAdd",(reaction,user)=>{
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in civemojiname){
-    if(reaction.emoji.name == emojiname[n]){
+    if(reaction.emoji.name == civemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == civrolename[n]);
         reaction.message.guild.member(user).addRole(role).catch(console.error);
         }
@@ -192,7 +192,7 @@ client.on("messageReactionRemove",(reaction,user)=>{
     if(user.bot)return;
     if(!reaction.message.channel.guild) return;
     for(let n in civemojiname){
-    if(reaction.emoji.name == emojiname[n]){
+    if(reaction.emoji.name == civemojiname[n]){
         let role = reaction.message.guild.roles.find(r => r.name == civrolename[n]);
         reaction.message.guild.member(user).removeRole(role).catch(console.error);
         }
