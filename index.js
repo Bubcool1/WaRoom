@@ -50,8 +50,8 @@ o Team Fortress 2 (TF2) - :tophat:
 - Final Fantasy XIV (FFXIV) - :fire:
 - War Thunder (WTD) - :airplane:
 o League Of Legends (LOL) - :crystal_ball:`)
-    msg.channel.send("(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)")
-  }.then(msg => msg.react('🌰'))
+    msg.channel.send("(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)").then(msg => msg.react('🌰'))
+  }
 });
 
 //if this works imma just go die.
