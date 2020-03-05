@@ -2,23 +2,23 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 // Defining Variables
-var hoiroleName=["HOI4"];
-var ckroleName=["CK2"];
-var civroleName=["CIV5"];
-var euroleName=["EU4"];
-var tfroleName=["TF2"];
-var stlroleName=["STL"];
-var ffroleName=["FFXIV"];
-var wtdroleName=["WTD"];
+var hoirolename=["HOI4"];
+var ckrolename=["CK2"];
+var civrolename=["CIV5"];
+var eurolename=["EU4"];
+var tfrolename=["TF2"];
+var stlrolename=["STL"];
+var ffrolename=["FFXIV"];
+var wtdrolename=["WTD"];
 
-var hoiemojiName=["chestnut"];
-var ckemojiName=["crown"];
-var civemojiName=["map"];
-var euemojiName=["euro"];
-var tfemojiName=["tophat"];
-var stlemojiName=["star"];
-var ffemojiName=["fire"];
-var wtdemojiName=["airplane"];
+var hoiemojiname=["chestnut"];
+var ckemojiname=["crown"];
+var civemojiname=["map"];
+var euemojiname=["euro"];
+var tfemojiname=["tophat"];
+var stlemojiname=["star"];
+var ffemojiname=["fire"];
+var wtdemojiname=["airplane"];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
