@@ -12,13 +12,13 @@ var ffrolename=["FFXIV"];
 var wtdrolename=["WTD"];
 
 var hoiemojiname=["🌰"];
-var ckemojiname=["crown"];
-var civemojiname=["map"];
-var euemojiname=["euro"];
-var tfemojiname=["tophat"];
-var stlemojiname=["star"];
-var ffemojiname=["fire"];
-var wtdemojiname=["airplane"];
+var ckemojiname=["👑"];
+var civemojiname=["🗺️"];
+var euemojiname=["💶"];
+var tfemojiname=["🎩"];
+var stlemojiname=["⭐"];
+var ffemojiname=["🔥"];
+var wtdemojiname=["✈️"];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
