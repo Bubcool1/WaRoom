@@ -58,17 +58,15 @@ o League Of Legends (LOL) - :crystal_ball:
 //if this works imma just go die.
 bot.on('message', msg => {
   if (msg.content === "(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)") {
-    msg.react(':chestnut:'))
-    msg.react(':crown:'))
-    msg.react(':map:'))
-    msg.react(':euro:'))
-    msg.react(':tophat:'))
-    msg.react(':star:'))
-    msg.react(':fire:'))
-    msg.react(':airplane:'))
-    msg.react(':crystal_ball:'))
+    msg.react('🌰'))
+    msg.react('👑'))
+    msg.react('🗺️'))
+    msg.react('💶'))
+    msg.react('🎩'))
+    msg.react('⭐'))
+    msg.react('🔥'))
+    msg.react('✈️'))
   }
-
 });
 
 
