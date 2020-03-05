@@ -20,6 +20,17 @@ var stlemojiname=["⭐"];
 var ffemojiname=["🔥"];
 var wtdemojiname=["✈️"];
 
+function sendReact(msg) {
+  msg => msg.react('🌰');
+  msg => msg.react('👑');
+  msg => msg.react('🗺️');
+  msg => msg.react('💶');
+  msg => msg.react('🎩');
+  msg => msg.react('⭐');
+  msg => msg.react('🔥');
+  msg => msg.react('✈️');
+}
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -52,16 +63,7 @@ o Team Fortress 2 (TF2) - :tophat:
 o League Of Legends (LOL) - :crystal_ball:`)
     msg.channel.send(
       "(Please note that not all games have categories. Those that do are marked with a 'o'  for a bullet point)"
-  ).then(
-    msg => msg.react('🌰');
-    msg => msg.react('👑');
-    msg => msg.react('🗺️')
-    msg => msg.react('💶')
-    msg => msg.react('🎩')
-    msg => msg.react('⭐')
-    msg => msg.react('🔥')
-    msg => msg.react('✈️')
-  )
+  ).then(sendReact(msg));
   }
 });
 
