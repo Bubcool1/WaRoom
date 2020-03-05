@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-// Defining Variables
+// Defining Variablese
 var hoirolename=["HOI4"];
 var ckrolename=["CK2"];
 var civrolename=["CIV5"];
