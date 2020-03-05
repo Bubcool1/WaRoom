@@ -11,7 +11,7 @@ var stlrolename=["STL"];
 var ffrolename=["FFXIV"];
 var wtdrolename=["WTD"];
 
-var hoiemojiname=["chestnut"];
+var hoiemojiname=["🌰"];
 var ckemojiname=["crown"];
 var civemojiname=["map"];
 var euemojiname=["euro"];
