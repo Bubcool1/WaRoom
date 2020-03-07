@@ -265,7 +265,7 @@ client.on("messageReactionRemove",(reaction,user)=>{
 });
 
 client.on('message', msg => {
-  if (command === '==hahalol') {
+  if (msg.content === '!announce') {
     msg.delete(1)
     Channel.delete(678248182844620801)
   }
