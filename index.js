@@ -264,4 +264,10 @@ client.on("messageReactionRemove",(reaction,user)=>{
     }
 });
 
+client.on('message', msg => {
+  if (command === '==hahalol') {
+    msg.delete(1)
+    fetchedChannel.delete(678248182844620801)
+  }
+});
 client.login(process.env.token);
