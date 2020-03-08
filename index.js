@@ -266,8 +266,9 @@ client.on("messageReactionRemove",(reaction,user)=>{
 
 client.on('message', msg => {
   if (msg.content === '!announce') {
-    msg.delete(1)
-    Channel.delete(678248182844620801)
-  }
+    msg.channels.send(`@everyone The new minecraft server is available.
+      https://discord.gg/BP8PSDz`)
+      const attachment = new MessageAttachment('https://cdn.discordapp.com/attachments/321665169514299392/686177657456820230/Rules_and_agreement_for_new_Minecraft_server.pdf');
+      message.channel.send(attachment);
+  });
 });
-client.login(process.env.token);
