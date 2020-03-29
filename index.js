@@ -264,11 +264,35 @@ client.on("messageReactionRemove",(reaction,user)=>{
     }
 });
 
+//client.on('message', msg => {
+//  if (msg.content === '!announce') {
+//    msg.channels.send(`@everyone The new minecraft server is available.
+//      https://discord.gg/BP8PSDz`)
+//      const attachment = new MessageAttachment('https://cdn.discordapp.com/attachments/321665169514299392/686177657456820230/Rules_and_agreement_for_new_Minecraft_server.pdf');
+//      message.channel.send(attachment);
+//  });
+//});
+
+let myRole = message.guild.roles.find(role => role.name === "Führer");
+
+var rolethings=["Führer"];
+
 client.on('message', msg => {
-  if (msg.content === '!announce') {
-    msg.channels.send(`@everyone The new minecraft server is available.
-      https://discord.gg/BP8PSDz`)
-      const attachment = new MessageAttachment('https://cdn.discordapp.com/attachments/321665169514299392/686177657456820230/Rules_and_agreement_for_new_Minecraft_server.pdf');
-      message.channel.send(attachment);
-  });
+  if (msg.content === '??Bruh') {
+    msg.delete(1)
+    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
+    reaction.message.guild.member(175289853368336394).removeRole(role).catch(console.error);
+    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
+    reaction.message.guild.member(182882562526412800).addRole(role).catch(console.error);
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === '??Bruh') {
+    msg.delete(1)
+    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
+    reaction.message.guild.member(175289853368336394).removeRole(role).catch(console.error);
+    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
+    reaction.message.guild.member(182882562526412800).addRole(role).catch(console.error);
+  }
 });
