@@ -281,6 +281,7 @@ client.on('message', msg => {
     msg.delete(1)
     var role = message.guild.roles.find(role => role.name === "Führer");
     message.member.addRole(role);
+  }
 });
 
 client.on('message', msg => {
