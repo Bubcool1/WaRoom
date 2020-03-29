@@ -282,17 +282,7 @@ client.on('message', msg => {
     msg.delete(1)
     let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
     reaction.message.guild.member(175289853368336394).removeRole(role).catch(console.error);
-    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
-    reaction.message.guild.member(182882562526412800).addRole(role).catch(console.error);
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === '??Bruh') {
-    msg.delete(1)
-    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
-    reaction.message.guild.member(175289853368336394).removeRole(role).catch(console.error);
-    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
-    reaction.message.guild.member(182882562526412800).addRole(role).catch(console.error);
+    let bruhrole = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
+    reaction.message.guild.member(182882562526412800).addRole(bruhrole).catch(console.error);
   }
 });
