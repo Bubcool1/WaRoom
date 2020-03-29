@@ -284,3 +284,11 @@ client.on('message', msg => {
     reaction.message.guild.member(182882562526412800).addRole(bruhrole).catch(console.error);
   }
 });
+
+client.on('message', msg => {
+  if (msg.content === '??UnBruh') {
+    msg.delete(1)
+    let role = reaction.message.guild.roles.find(r => r.name == rolethings[n]);
+    reaction.message.guild.member(182882562526412800).addRole(role).catch(console.error);
+  }
+});
